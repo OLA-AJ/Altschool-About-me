@@ -13,22 +13,33 @@
     <h2>Visual Introduction</h2>
     <p>Here's me, adapting to every screen size:</p>
     <picture>
-        <source media="(max-width: 600px)" srcset="./Assignment2/Asset/image/Media.jpg">
-        <source media="(max-width: 900px)" srcset="./Assignment2/Asset/image/Media2.jpg">
-        <source media="(min-width: 901px)" srcset="./Assignment2/Asset/image/Media.jpg">
-        <img src="./Assignment2/Asset/image/Media.jpeg" alt="Ajakonre Olawale Profile">
+        <source media="(max-width: 480px)" srcset="/Assignment2/Asset/image/Media.jpeg">
+        <source media="(max-width: 768px)" srcset="/Assignment2/Asset/image/Media.jpeg">
+        <source media="(max-width: 1024px)" srcset="/Assignment2/Asset/image/Media.jpeg">
+        <source media="(min-width: 1025px)" srcset="/Assignment2/Asset/image/Media.jpeg">
+        <img src="./Assignment2/Asset/image/Media.jpeg" alt="A representation of my ALT School journey">
     </picture>
 
     <hr>
     <h2>My Voice</h2>
     <p>Hear my mission statement:</p>
-    <audio src="./Assignment2/Asset/audio/The Man in the Arena.mp4" controls></audio>
+    <audio controls>
+        <source src="./Assignment2/Asset/audio/The Man in the Arena.mp4" type="audio/mpeg">
+        <source src="./Assignment2/Asset/audio/The Man in the Arena.mp4" type="audio/ogg">
+        <source src="./Assignment2/Asset/audio/The Man in the Arena.mp4" type="audio/wav">
+        <source src="./Assignment2/Asset/audio/The Man in the Arena.mp4" type="audio/mpeg">
+        Your browser does not support the audio element. Imagine me saying: "Hi, I'm excited to be part of ALT School!"
+    </audio>
     <hr>
 
     <h2>My Vision in Motion</h2>
     <p>Watch my journey in tech:</p>
     <video width="400" height="300" controls>
-        <source src="./Assignment2/Asset/video/The Man in the Arena video.mp4">
+        <source src="./Assignment2/Asset/video/The Man in the Arena video.mp4" type="video/mp4">
+        <source src="./Assignment2/Asset/video/The Man in the Arena video.mp4" type="video/webm">
+        <source src="./Assignment2/Asset/video/The Man in the Arena video.mp4" type="video/mp4">
+        <source src="./Assignment2/Asset/video/The Man in the Arena video.mp4" type="video/webm">
+        Your browser does not support the video element. Imagine me sharing my ALT School journey!
     </video>
     <hr>
 
